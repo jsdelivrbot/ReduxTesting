@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export default class CommentList extends Component {
 	render() {
 		return (
-      <div className='comment-list'>
-        
-      </div>
+      <ul className='comment-list'>
+				<li>This is the comment box</li>
+      </ul>
 		)
 	}
 }
